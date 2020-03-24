@@ -17,7 +17,7 @@ public class Main {
 
 
     private static void search(String str){
-        int index;
+        int index=-1;
         int pos=0;
          do{
             index=line.substring(pos).indexOf(str);
